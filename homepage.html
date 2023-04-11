@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <div class = "header">  
+            <img class="logo" src="https://www.shutterstock.com/image-vector/simple-online-learning-logo-template-600w-1796130265.jpg"/>
+            <div class="search-bar">
+                <input type = "text" class = "search-input" placeholder = "Search course"/>
+            </div>
+            <div class ="header-bar">
+                <span class = "header-bar-button" >Introduction</span>
+                <span class = "header-bar-button" >Courses</span>
+                <img class = "header-cart-icon" src="https://freeiconshop.com/wp-content/uploads/edd/cart-outline.png"/>
+                <img class = "header-login-icon" src = "data:image/png;base64,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"/>
+            </div>
+            <div class = "header-account">
+                <span class = "btn-login">Login</span>
+                <span class = "btn-register">Register</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class = "section1">
+            <div class = "section1-1">
+                <div class = "section1-1-1">
+                    <span> Start 
+                    <span style = "color: rgb(32, 178, 170);">learning</span> 
+                    <br>
+                    <span>from the world's</span>
+                    <br>
+                    <span>pro instructors</span>
+                    <div class="section1-1-2">
+                        <span>Start with more than </span>
+                        <b>5,000</b>
+                        <span> courses, Certificates</span>
+                        <br>
+                        <span> and degress from world-class universities</span>
+                    </div>   
+                </div> 
+            </div>
+        
+            <div class = "section1-2">
+                <img class="section1-2-img" src = "https://cdni.iconscout.com/illustration/premium/thumb/self-study-from-home-3992553-3299886.png"/>
+            </div>
+        </div>
+    </main>
+    <footer class = "footer">
+        <div class = "footer-1">
+            <b><p style="color: bisque;">ABOUT US</p></b>
+            <span>Description</span>
+            <br
+            <span>Rules</span>
+            <br>
+            <span>Security</span>
+        </div>
+        <div class = "footer-1">
+            <b><p style="color: bisque;">COMMUNITY</p></b>
+            <span>Customer Services</span>
+            <br>
+            <span>Blog</span>
+            <br>
+            <span>Contents</span>
+        </div>
+        <div class = "footer-1">
+            <b><p style="color: bisque;">ADDRESS</p></b>
+            <span>18 Hoang Quoc Viet</span>
+            <br>
+            <span>Phone: 0949998486</span>
+            <br>
+            <span>Email:letranthanhha25072001@gmail.com</span>
+            <br>
+            <img class = "footer-fb-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png"/>
+            <img class = "footer-yt-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUbcjEVrpsnIltwQFVZLRFgdPUze4pFX5odg&usqp=CAU"/>
+
+        </div
+    </footer>
+
+</body>
+</html>
